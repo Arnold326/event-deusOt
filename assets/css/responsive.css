@@ -1,0 +1,176 @@
+
+/* Ajustes para telas de até 768px (tablets e celulares grandes) */
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    #contador .valor {
+        font-size: 2em;
+    }
+
+    #contador .box {
+        width: 100%;
+    }
+
+    .campeonato {
+        width: 100%;
+    }
+
+    .atracoes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .atracoes .item i {
+        font-size: 3em;
+    }
+
+    .streamers {
+        max-width: 100%;
+    }
+
+    .slot {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hotel {
+        width: 150px;
+    }
+
+    .evento-banner .banner-imagem,
+    .evento-foto .foto-imagem {
+        max-width: 100%;
+    }
+
+    .hoteis-image {
+        max-width: 100%;
+    }
+
+    .logo-image {
+        width: 30%; /* Ajustando o tamanho da logo */
+    }
+
+    .credenciamento-btn {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+
+    .localizacao-container {
+        padding: 20px;
+    }
+}
+
+/* Ajustes para telas de até 480px (smartphones) */
+@media (max-width: 480px) {
+
+    header {
+        height: auto;
+        padding: 15px;
+    }
+
+    .logo-image {
+        width: 50%;
+    }
+
+    #contador {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    #contador .valor {
+        font-size: 2.5em;
+    }
+
+    .campeonato {
+        width: 100%;
+    }
+
+    .atracoes {
+        flex-wrap: wrap;
+        justify-content: space-between; /* Organiza os itens em colunas */
+    }
+
+    .atracoes .item {
+        flex: 0 0 45%; /* Cada item ocupa 45% da largura */
+        margin-bottom: 20px; /* Espaço entre as linhas */
+    }
+
+    .streamers {
+        max-width: 100%;
+    }
+
+    .slot {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hotel {
+        width: 120px;
+    }
+
+    .evento-banner .banner-imagem,
+    .evento-foto .foto-imagem {
+        width: 100%;
+    }
+
+    .hoteis-image {
+        max-width: 100%;
+    }
+
+    .credenciamento {
+        padding: 20px;
+    }
+
+    .credenciamento-btn {
+        padding: 10px 15px;
+    }
+}
+
+/* Ajustes para telas de até 320px (smartphones menores) */
+@media (max-width: 320px) {
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo-image {
+        width: 60%; /* Aumentando ainda mais a logo para se adequar */
+    }
+
+    #contador .valor {
+        font-size: 1.2em;
+    }
+
+    .campeonato {
+        width: 100%;
+    }
+
+    .atracoes .item i {
+        font-size: 2em;
+    }
+
+    .slot {
+        width: 70px;
+        height: 70px;
+    }
+
+    .hotel {
+        width: 100px;
+    }
+
+    .evento-banner .banner-imagem,
+    .evento-foto .foto-imagem {
+        width: 100%;
+    }
+
+    .hoteis-image {
+        max-width: 100%;
+    }
+
+    .credenciamento {
+        padding: 15px;
+    }
+}
